@@ -40,3 +40,4 @@ resource "aws_route_table_association" "rta2" {
 resource "aws_security_group" "webSg" {
   name   = "web"
   vpc_id = aws_vpc.myvpc.id
+}
